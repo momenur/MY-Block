@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial;
+}
+.walpaper{
+    margin: 0px auto;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: auto;
+    background-image: url("../image/back1.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+.nav{
+    width: 100%;
+    float: left;
+    background-color: rgba(0,0,0,.5);
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+li{
+    float: left;
+    border-right: 1px solid#bbb;
+}
+li:last-child{
+    border-right: none;
+}
+a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 24px 30px;
+    text-decoration: none;
+    font-size: 24px ;
+    transition: all .5s;
+}
+a:hover{
+    background-color: rgba(255,255,0,.25);
+    color: #fff;
+    font-weight: bold;
+}
+.search{
+    float: right;
+}
+.search input{
+    width: 300px;
+    height: 30px;
+    margin: 20px 20px 0px 0px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-color: rgba(255,255,255,.2);
+    opacity: 0.5;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 18px;
+
+}
+.search i.fa-magnifying-glass{
+    color: #fff;
+    font-size: 18px;
+    margin: 5px 10px 0px 0px;
+    padding-top: 3px;
+}
+.about{
+    width: 100%;
+    display: inline-block;
+    display: block;
+}
+.intro{
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-top: 150px;
+    float: left;
+    margin-left: 3%;
+}
+.intro1:hover{
+    background-color: rgba(0,0,0,.5);
+}
+.hello{
+    font-size: 24px;
+    color: #fff;
+}
+.name{
+    font-size: 30px;
+    color: #fff;
+}
+.colorull{
+    color: aqua;
+    font-size: 25px;
+}
+.colorless{
+    color: #fff;
+    font-size: 25px;
+}
+.button1{
+    height: auto;
+}
+button{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid darkturquoise;
+}
+button:hover{
+    background-color: #a55a05;
+}
+.imgage{
+    display: block;
+    margin-left: 10%;
+    float: left;
+    width: 15%;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    border-radius: 50%;
+}
+.follow{
+    width: 27%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 150px;
+}
+.pragraf{
+    width: 100%;
+    
+}
+.pragraf P{
+    font-size: 30px;
+    color: aqua;
+}
+.icon a{
+    margin-top: 30px;
+    width: 5%;
+    float: left;
+    border-radius: 5%;
+    font-size: 40px;
+}
